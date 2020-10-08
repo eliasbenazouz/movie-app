@@ -1,0 +1,56 @@
+.Adder{
+    margin: 40px 0 0 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(17, 15, 36, 1);
+}
+
+.Adder > h2 {
+    color: white;
+}
+
+.Adder__form > form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Adder__form > form > input{
+    padding: 5px;
+    margin: 4px 0;
+    border: none;    
+    text-align: center;
+    width: 50vw;
+}
+
+.test {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Adder__form > form > button{    
+    margin: 4px 0;
+    color: black;
+    font-size: 14px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.starRadio {
+    display: none;
+}
+
+.star{
+    cursor: pointer;
+    transition: color 200ms;
+}
+
+
+
